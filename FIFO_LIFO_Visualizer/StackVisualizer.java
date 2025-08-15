@@ -20,7 +20,7 @@ public class StackVisualizer extends JFrame {
 
         // Frame setup
         setTitle("Stack Visualizer");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(500, 600);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -280,3 +280,4 @@ public class StackVisualizer extends JFrame {
         }
     }
 }
+
