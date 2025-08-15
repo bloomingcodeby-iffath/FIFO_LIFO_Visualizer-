@@ -94,7 +94,7 @@ public class WelcomeFrame extends JFrame {
 
                 StackVisualizer s=new StackVisualizer();
                 s.setVisible(true);
-                WelcomeFrame.this.setVisible(false);
+               // WelcomeFrame.this.setVisible(false);
             }
         });
         queueBtn.addActionListener(new ActionListener() {
@@ -103,7 +103,7 @@ public class WelcomeFrame extends JFrame {
 
                 QueueVisualizer q=new QueueVisualizer();
                 q.setVisible(true);
-                WelcomeFrame.this.setVisible(false);
+              //  WelcomeFrame.this.setVisible(false);
             }
         });
 
@@ -119,3 +119,4 @@ public class WelcomeFrame extends JFrame {
         frame.setResizable(true);
     }
 }
+
