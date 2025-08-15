@@ -43,7 +43,7 @@ public class QueueVisualizer extends JFrame {
         rearLabel = new JLabel("REAR", SwingConstants.CENTER);
 
         frontLabel.setOpaque(true);
-        frontLabel.setBackground(new Color(255, 103, 21));   // red
+        frontLabel.setBackground(new Color(189, 12, 12));   // red
         frontLabel.setForeground(Color.WHITE);
         frontLabel.setFont(new Font("Arial", Font.BOLD, 14));
         frontLabel.setSize(60, 30);
@@ -51,7 +51,7 @@ public class QueueVisualizer extends JFrame {
         queuePanel.add(frontLabel);
 
         rearLabel.setOpaque(true);
-        rearLabel.setBackground(new Color(0, 255, 4));   //green
+        rearLabel.setBackground(new Color(46, 138, 12));   //green
         rearLabel.setForeground(Color.WHITE);
         rearLabel.setFont(new Font("Arial", Font.BOLD, 14));
         rearLabel.setSize(60, 30);
@@ -260,4 +260,5 @@ public class QueueVisualizer extends JFrame {
         }
     }
 }
+
 
