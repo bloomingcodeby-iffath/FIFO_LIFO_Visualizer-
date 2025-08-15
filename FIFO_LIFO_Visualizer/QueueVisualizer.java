@@ -17,7 +17,7 @@ public class QueueVisualizer extends JFrame {
         queueArray = new String[queueSize];
 
         setTitle("Queue Visualizer");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(700, 400);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -260,3 +260,4 @@ public class QueueVisualizer extends JFrame {
         }
     }
 }
+
